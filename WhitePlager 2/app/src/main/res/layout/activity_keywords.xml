@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Keywords"
+    android:background="#eeeeee">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Key1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:ems="10"
+                android:hint=" enter your words here"
+                android:inputType="textMultiLine"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:layout_marginTop="70dp"/>
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:ems="10"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:id="@+id/key_B1"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="Plage"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:backgroundTint="#121330"
+                android:fontFamily="times new roman"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/key_B2"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:text="RESET"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:fontFamily="times new roman"
+                app:backgroundTint="#121330"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

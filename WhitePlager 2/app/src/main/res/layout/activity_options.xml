@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Options"
+    android:background="#eeeeee">
+
+    <Button
+        android:id="@+id/b2"
+
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="#1f4068"
+        android:text="Synonym"
+        android:textSize="25dp"
+        android:fontFamily="times new roman"
+        app:backgroundTint="#121330" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="#1f4068"
+        android:text="Keyword"
+        android:textSize="25dp"
+        android:fontFamily="times new roman"
+        app:backgroundTint="#121330" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="#1f4068"
+        android:textSize="25dp"
+        android:text="Translate"
+        app:backgroundTint="#121330"
+        android:fontFamily="times new roman"/>
+
+
+</LinearLayout>
